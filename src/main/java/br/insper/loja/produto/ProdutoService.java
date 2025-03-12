@@ -9,7 +9,7 @@ import org.springframework.web.server.ResponseStatusException;
 @Service
 public class ProdutoService {
 
-    private static final String BASE_URL = "http://localhost:8082/api/produtos/";
+    private static final String BASE_URL = "http://produto:8082/api/produtos/";
     private final RestTemplate restTemplate;
 
     public ProdutoService() {
